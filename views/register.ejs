@@ -1,0 +1,39 @@
+<%- include('partials/header') -%>
+<h1>It's the registration page.</h1>
+<p>Go register yourself quick......</p>
+
+
+<div class="container-mt-5">
+  <h1>Register</h1>
+
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+          <form class="/register" method="post">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="username" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <a class="btn btn-block btn-primary" href="/auth/google" role="button">
+          <i class="fa fa-google"> Sign in with Google</i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('partials/footer') -%>

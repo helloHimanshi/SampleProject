@@ -1,0 +1,118 @@
+
+#title {
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color: #43d8c9;
+}
+.container {
+  padding: 10% 0 0;
+  width: 60%;
+}
+
+h3 {
+  text-align: center;
+  padding: 10% 0 5%;
+}
+
+#testimonilas{
+  background-color: red;
+}
+.carousel-item{
+  border-radius: 5%;
+  height: 600px;
+  width: 600px;
+  margin-left: 350px;
+}
+
+.carousel-item {
+  padding: 10%;
+  width: 60%;
+}
+
+.carousel-caption {
+  text-align: center;
+  width: 70%;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.testimonilas {
+  background-color: red;
+}
+.img-container{
+  line-height: 1.6;
+  text-align: center;
+  padding: 10% 0 15%;
+}
+.h-img{
+  padding: 7% 0;
+}
+.p-img{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+.hr-divider{
+  border-style: dotted;
+  border-width: 5px 0 0;
+  width: 25%;
+  border-color: #c2f0fc;
+}
+.details{
+  padding: 10%;
+}
+.featurette-image1 {
+  padding-left: 30px;
+}
+.font {
+  text-align: center;
+}
+span {
+  padding: 2%;
+}
+.fa-github:hover{
+  color: #6e6d6d;
+}
+.fa-google{
+  color: #cf1b1b;
+}
+.fa-google:hover{
+  color: #eb8f8f;
+}
+.fa-instagram{
+  color: #931a25;
+}
+.fa-instagram:hover{
+  color: #e97171;
+}
+.fa-linkedin-square{
+  color: #07689f;
+}
+.fa-linkedin-square:hover{
+  color: #00b7c2;
+}
+.fa-facebook{
+  color: #00416d;
+}
+.fa-facebook:hover{
+  color: #318fb5;
+}
+.fa-heart{
+  color: #931a25;
+}
+.bottom-container{
+  padding: 0 10% 10%;
+  text-align: center;
+}
+.thefooter{
+  padding: 5% 0;
+  text-align: center;
+  background-color: #03c4a1;
+  margin: 0;
+}
