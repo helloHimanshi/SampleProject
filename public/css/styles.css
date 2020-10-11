@@ -15,33 +15,31 @@ h3 {
   text-align: center;
   padding: 10% 0 5%;
 }
-
-#testimonilas{
-  background-color: red;
-}
 .carousel-item{
   border-radius: 5%;
-  height: 600px;
-  width: 600px;
-  margin-left: 350px;
+  position: relative;
+  padding-top: 15%;
 }
-
-.carousel-item {
-  padding: 10%;
-  width: 60%;
+.slide{
+  width: 70%;
+  height: 80%;
+  margin: auto;
+  text-align: center;
 }
-
 .carousel-caption {
   text-align: center;
   width: 70%;
   position: absolute;
   bottom: 10%;
   left: 5%;
+  padding-bottom: 5%;
   z-index: 20;
-  color: white;
+  color: #065446;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
-
+.btn-lg{
+  background-color: #41aea9;
+}
 .testimonilas {
   background-color: red;
 }
