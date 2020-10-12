@@ -1,39 +1,45 @@
 <%- include('partials/header') -%>
-<h1>It's the registration page.</h1>
-<p>Go register yourself quick......</p>
+
+<div class="container">
 
 
-<div class="container-mt-5">
-  <h1>Register</h1>
-
-  <div class="row">
+  <div class="row form-row">
     <div class="col-sm-8">
       <div class="card">
         <div class="card-body">
+          <h1>Register</h1>
           <form class="/register" method="post">
             <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" name="username" class="form-control">
+              <label for="email">
+                <h5>Email</h5>
+              </label>
+              <input id="form-input" type="email" name="username" class="form-control" placeholder="User Email">
             </div>
             <div class="form-group">
-              <label for="password">Password</label>
-              <input type="password" name="password" class="form-control">
+              <label for="password">
+                <h5>Password</h5>
+              </label>
+              <input id="form-password" type="password" name="password" class="form-control" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-primary">Register</button>
+            <button id="registerbutton" type="submit" class="btn btn-primary btn-block">Register</button>
           </form>
-        </div>
-      </div>
-    </div>
 
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-body">
-          <a class="btn btn-block btn-primary" href="/auth/google" role="button">
-          <i class="fa fa-google"> Sign in with Google</i>
-          </a>
+
+          <hr>
+          <h5>Or Sign up with</h5>
+          <div class="fontawsm">
+            <a href="/auth/facebook" role="button">
+              <span class="fa fa-facebook fa-2x" aria-hidden="true"></span>
+            </a>
+            <a href="/auth/google" role="button">
+              <span class="fa fa-google fa-2x" aria-hidden="true"></span>
+            </a>
+            <a href="/auth/linkedin" role="button">
+              <span class="fa fa-linkedin-square fa-2x" aria-hidden="true"></span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<%- include('partials/footer') -%>

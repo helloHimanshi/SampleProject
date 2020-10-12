@@ -7,13 +7,13 @@
   background-color: #43d8c9;
 }
 .container {
-  padding: 10% 0 0;
+  padding: 5% 0;
   width: 60%;
 }
 
-h3 {
+h1, h3, h5{
   text-align: center;
-  padding: 10% 0 5%;
+  padding: 5% 0 5%;
 }
 .carousel-item{
   border-radius: 5%;
@@ -56,6 +56,9 @@ h3 {
   text-align: center;
   margin-left: 10%;
 }
+#up-img1{
+  margin-left: 20%;
+}
 .hr-divider{
   border-style: dotted;
   border-width: 5px 0 0;
@@ -73,6 +76,38 @@ h3 {
 }
 span {
   padding: 2%;
+}
+.form-row{
+  padding-left: 20%;
+}
+div .card{
+  border-radius: 1rem;
+}
+.form-group{
+  padding: 2.5% 5% 2.5%;
+}
+#form-input{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+}
+#form-password{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+}
+#registerbutton{
+  padding: 10px;
+   border-radius: 25px;
+  width: 90%;
+  height: 100%;
+  margin: 5% 0 5% 5%;
+}
+.fontawsm{
+  text-align: center;
+  padding-bottom: 5%;
 }
 .fa-github:hover{
   color: #6e6d6d;
